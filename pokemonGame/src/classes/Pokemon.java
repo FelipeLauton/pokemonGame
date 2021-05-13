@@ -75,4 +75,9 @@ public class Pokemon {
 		this.tipo = tipo;
 	}
 	
+	//Metodos
+	public void Atacar(int ataque) {
+		this.HP = this.HP - ataque;
+	}
+	
 }
